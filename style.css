@@ -31,6 +31,10 @@ body {
   display: flex;
 }
 
+#commands > * {
+margin: 0.25em;
+}
+
 #commandline {
   flex: 1;
 }

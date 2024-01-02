@@ -13,8 +13,13 @@
 	<button id="clearTerminal" title="Clear Terminal Output">🗑️</button>
 </section>
 <form id="commands">
-  <input id="commandline">
-  <button>Run</button>
+  <button id="previousCommand" type="button" hidden title="Load previous command">⬅️</button>
+  <button id="nextCommand" type="button" hidden title="Load next command">➡️</button>
+
+  <input id="commandline" title="Enter your command here" autofocus>
+
+  <button type="reset" title="Clear Command">🚫</button>
+  <button type="submit" title="Run command">🆗</button>
 </form>
 
 <script src="./script.js"></script>

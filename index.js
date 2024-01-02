@@ -15,7 +15,7 @@ function createWindow () {
   })
 
   // Load the index.html file
-  win.loadFile('index.html')
+  win.loadFile('terminal.html')
 }
 
 app.on('ready', createWindow)
